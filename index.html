@@ -15,28 +15,13 @@
 
 <body>
   <main>
-    <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Luciano Ramello</a>
-    </div>
-        <div class="linkNav">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
+
     <nav class="menu">
       <div class="links">
-        <a href="">About</a>
-        <a href="">Skills</a>
-        <a href="">Jobs</a>
-        <a href="">Contact</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#contact">Contact</a>
       </div>
 
     </nav>
@@ -49,7 +34,7 @@
           IT'S NICE TO MEET YOU!
         </div>
         <div class="container tell">
-          <a href="" class="btn btn-xl">Tell Me More</a>
+          <a href="#about" class="btn btn-xl tmm">Tell Me More</a>
         </div>
       </div>
     </div>
@@ -67,9 +52,9 @@
         / ReactNative / Redux Stack. </div>
     </div>
   </section>
-  <section class="skills">
-    <div class="col-md-2"></div>
-    <div class="col-md-8 text-center">
+  <section class="skills" id="skills">
+    <!-- <div class="col-md-2"></div> -->
+    <div class="col-md-12 text-center">
       <h3>SKILLS</h3>
       <img src="img/HTML5_logo_and_wordmark.svg.png" alt="" class="logod">
       <img src="img/CSS3_Logo.png" alt="" class="logod">
@@ -80,14 +65,14 @@
   </section>
   <section class="portfolio container-fluid text-center">
 
-    <div class="container col-md-2"></div>
-    <div class="container col-md-8 text-center" id="jobs">
+    <!-- <div class="container col-md-2"></div> -->
+    <div class="container col-md-12 text-center" id="jobs">
       <h3>JOBS</h3>
-      <!-- <div class="container col-md-1"></div> -->
+
       <div class="job container col-md-9 text-center"><img src="img/quote.png" alt="">
         <p>A simple quote machine, with social button to publish. - HTML5, CSS3, JQuery, javascript, Bootstrap.</p>
       </div>
-      <!-- <div class="container col-md-1"></div> -->
+
       <div class="job container col-md-9 text-center"><img src="img/weather.png" alt="">
         <p>
           A minimalism weather app with a change temperature measures feature. -HTML5, CSS3, JQuery, javascript, Bootstrap.
@@ -99,14 +84,8 @@
     </div>
   </section>
 
-  <section class="contact container-fluid text-center">
-    <!-- <h3>GET IN TOUCH</h3>
-    <div class="worldmap">
-      <img src="img/world-map.jpg" alt="World Map" class="">
+  <section class="contact container-fluid text-center" id="contact">
 
-    </div>
-    <div class="container"></div>
-    <div class="container"></div> -->
 
     <div class="container col-md-9 text-center">
       <h3>Let's get in touch!</h3>
@@ -123,7 +102,7 @@
         <div class="form-group">
 
           <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
-          <button type="submit" class="btn btn-default">Submit</button>
+          <button type="submit" class="btn btn-default subm">Submit</button>
         </div>
       </form>
     </div>
@@ -131,7 +110,7 @@
   <footer class=" redesSociales container-fluid col-md-12  text-center">
 
     <div class="">
-        <p>Copyright © Your Website 2016</p>
+
       <a href=""> <i class="fa fa-fw fa-twitter" aria-hidden="true"></i></a>
       <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -139,10 +118,13 @@
 
     </div>
   </footer>
-  <script src="js/index.js" charset="utf-8"></script>
+
   <script src="jquery/jquery-3.2.1.js" charset="utf-8"></script>
   <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js">
   </script>
+  <script type="text/javascript" src="js/jquery.nicescroll.js">
+  </script>
+  <script src="js/index.js" charset="utf-8"></script>
 </body>
 
 </html>

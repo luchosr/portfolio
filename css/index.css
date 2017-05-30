@@ -20,12 +20,17 @@ h3 {
 section {
   min-height: 450px; }
 
+ul li {
+  padding: 10px 10px; }
+
 #about {
   height: 450px;
   background-color: #edeeef; }
 
-ul li {
-  padding: 10px 10px; }
+#jobs {
+  display: flex;
+  flex-direction: column;
+  background-color: white; }
 
 .links {
   text-align: right; }
@@ -41,13 +46,6 @@ ul li {
   filter: grayscale(100%);
   opacity: 0.6;
   padding: 20px; }
-
-.portfolio {
-  background-color: #e5e5e5; }
-
-#jobs {
-  display: flex;
-  flex-direction: column; }
 
 .job {
   padding: 40px; }
@@ -127,18 +125,22 @@ ul li {
   justify-content: center; }
 
 #formulario {
-  margin-top: 70px; }
+  margin-top: 15px; }
 
 .form-group {
   padding: 15px 0; }
 
 .btn {
   margin: 25px 0;
-  font-size: 30px; }
+  font-size: 30px;
+  color: #eee; }
+
+.subm {
+  background-color: #bb644a; }
 
 footer {
   background-color: #a5453e;
-  height: 100px;
+  height: 130px;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -157,6 +159,6 @@ footer {
   padding: 5px;
   border: 2px solid white;
   border-radius: 50px;
-  margin: 15px 15px; }
+  margin: 20px 15px; }
 
 /*# sourceMappingURL=index.css.map */
