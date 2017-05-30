@@ -11,8 +11,3 @@
       });
   });
 })();
-
-  // $(document).ready(function(){
-  //   console.log('entra en el click');
-  //   $('#divID').getNiceScroll().doScrollPos(0,('#about').position().top);
-  // });
