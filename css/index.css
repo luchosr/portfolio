@@ -7,6 +7,22 @@ main {
   background-size: cover;
   height: 700px; }
 
+nav {
+  height: 50px;
+  padding-top: 30px; }
+
+.menu a {
+  margin: 0 20px;
+  color: #fff;
+  padding-bottom: 9px;
+  font-size: 16px;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 2px solid transparent; }
+
+.menu a:hover {
+  border-bottom: 2px solid #fff; }
+
 .welc {
   margin-top: 50px;
   font-family: "Droid Serif", serif;
@@ -33,10 +49,6 @@ main {
     text-decoration: none;
     text-transform: uppercase; }
 
-nav {
-  height: 50px;
-  padding-top: 30px; }
-
 h3 {
   padding-bottom: 10px;
   border-bottom: 2px solid rgba(233, 129, 99, 0.6);
@@ -51,7 +63,7 @@ ul li {
 
 #about {
   height: 450px;
-  background-color: #edeeef; }
+  background-image: url("../img/gplaypattern/gplaypattern.png"); }
 
 #jobs {
   display: flex;
@@ -78,18 +90,6 @@ ul li {
 
 .job img {
   max-width: 500px; }
-
-.menu a {
-  margin: 0 20px;
-  color: #fff;
-  padding-bottom: 9px;
-  font-size: 16px;
-  display: inline-block;
-  text-decoration: none;
-  border-bottom: 2px solid transparent; }
-
-.menu a:hover {
-  border-bottom: 2px solid #fff; }
 
 #saludo {
   color: white;
@@ -118,7 +118,7 @@ ul li {
   height: 700px; }
 
 .contact {
-  min-height: 600px;
+  min-height: 200px;
   background-image: url("../img/gplaypattern/gplaypattern.png");
   background-repeat: repeat;
   display: flex;
@@ -139,11 +139,8 @@ ul li {
   background-color: #bb644a; }
 
 footer {
-  background-color: #a5453e;
-  height: 130px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  background-image: url("../img/gplaypattern/gplaypattern.png");
+  height: 130px; }
 
 .redesSociales {
   display: flex;
@@ -151,14 +148,14 @@ footer {
   align-items: center; }
 
 .fa {
-  width: 35px; }
+  width: 40px; }
 
 .redesSociales a {
   font-size: 30px;
-  color: white;
+  color: rgba(233, 129, 99, 0.6);
   padding: 5px;
-  border: 2px solid white;
+  border: 2px solid rgba(233, 129, 99, 0.6);
   border-radius: 50px;
-  margin: 20px 15px; }
+  margin: 15px 15px; }
 
 /*# sourceMappingURL=index.css.map */
