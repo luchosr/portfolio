@@ -3,7 +3,7 @@ body {
 
 main {
   background-color: white;
-  background-image: url("../img/landinEdit.jpg");
+  background-image: url("../img/coverBlueEdit.jpg");
   background-size: cover;
   height: 700px; }
 
@@ -38,7 +38,7 @@ nav {
   font-size: 35px;
   margin-top: 45px;
   font-weight: 700;
-  background-color: rgba(66, 134, 244, 0.6);
+  background-color: rgba(26, 138, 175, 0.6);
   width: 250px;
   border-radius: 5px;
   padding: 10px 20px; }
@@ -51,7 +51,7 @@ nav {
 
 h3 {
   padding-bottom: 10px;
-  border-bottom: 2px solid rgba(66, 134, 244, 0.6);
+  border-bottom: 2px solid rgba(26, 138, 175, 0.6);
   margin-top: 40px;
   font-size: 40px; }
 
@@ -131,15 +131,15 @@ ul li {
   padding: 15px 0; }
 
 .btn {
-  margin: 25px 0;
+  margin: 5px 0;
   font-size: 30px;
   color: #eee; }
 
 .subm {
-  background-color: rgba(66, 134, 244, 0.6); }
+  background-color: rgba(26, 138, 175, 0.6); }
 
 footer {
-  background-color: #0C3C89;
+  background-color: #106582;
   height: 70px; }
 
 .redesSociales {
@@ -148,11 +148,11 @@ footer {
   align-items: center; }
 
 .fa {
-  width: 40px; }
+  width: 43px; }
 
 .redesSociales a {
   font-size: 30px;
-  color: rgba(66, 134, 244, 0.9);
+  color: rgba(26, 138, 175, 0.9);
   padding: 5px;
   border: 2px solid #0C3C89;
   border-radius: 50px;
