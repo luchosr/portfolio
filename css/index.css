@@ -44,6 +44,10 @@ footer {
   background-color: #106582;
   height: 70px; }
 
+span{
+  color: rgba(26, 138, 175, 0.6);
+  font-weight: bolder;
+}
 #about {
   height: 450px;
   background-image: url("../img/gplaypattern/gplaypattern.png"); }
