@@ -1,3 +1,17 @@
+@media (max-width: 600px) {
+  .skills{
+    height: 550px !important;
+  }
+  .skills img{
+    width: 180px;
+    height: 150px;
+  }
+  .job img{
+    width: 310px;
+  }
+}
+
+
 body {
   margin: 0; }
 

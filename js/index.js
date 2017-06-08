@@ -1,11 +1,10 @@
+//Modularized script
 (function(){
-  console.log("funciona");
-  $( document ).ready(function() {
-      console.log( "ready!" );
-      $(document).on('click', 'a', function(event){
-          event.preventDefault();
+  $( document ).ready(function() {// on page DOM load
 
-          $('html, body').animate({
+      $(document).on('click', '.slw', function(event){//event handler
+          event.preventDefault();
+          $('html, body').animate({//Scroll animation
               scrollTop: $( $.attr(this, 'href') ).offset().top
           }, 1000);
       });
