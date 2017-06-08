@@ -7,7 +7,7 @@
 
           $('html, body').animate({
               scrollTop: $( $.attr(this, 'href') ).offset().top
-          }, 550);
+          }, 1000);
       });
   });
 })();
