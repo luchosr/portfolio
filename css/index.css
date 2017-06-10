@@ -60,7 +60,7 @@ span{
 #saludo {
   color: white;
   height: 600px;
-  display: flex;
+  display: flex;kl
   justify-content: center;
   align-items: center; }
 
@@ -121,7 +121,7 @@ span{
   padding: 40px; }
 
 .job img {
-  max-width: 500px;
+  max-width: 650px;
   box-shadow: 5px 5px 25px 0px rgba(121, 122, 124, 0.6);
   border-radius: 7px; }
 
