@@ -18,7 +18,7 @@ nav {
 
 h3 {
   padding-bottom: 10px;
-  border-bottom: 2px solid rgba(26, 138, 175, 0.6);
+  border-bottom: 2px solid #3A506B;
   margin-top: 40px;
   font-size: 40px; }
 
@@ -29,7 +29,7 @@ ul li {
   padding: 10px 10px; }
 
 footer {
-  background-color: #106582;
+  background-color: #1C2541;
   height: 70px; }
 
 span{
@@ -40,10 +40,6 @@ span{
   height: 450px;
   background-image: url("../img/gplaypattern/gplaypattern.png"); }
 
-#jobs {
-  display: flex;
-  flex-direction: column;
-  background-color: white; }
 
 #saludo {
   color: white;
@@ -115,7 +111,8 @@ span{
   border-radius: 7px; }
 
 .job p {
-  margin: 30px;
+  margin-top: 60px;
+  margin-bottom: 150px;
   font-family: "Droid Serif", serif; }
 
 .recuadro {
@@ -134,7 +131,8 @@ span{
 
 .contact {
   min-height: 200px;
-  background-image: url("../img/gplaypattern/gplaypattern.png");
+  color: #eee;
+  background-color: #3A506B;
   background-repeat: repeat;
   display: flex;
   justify-content: center; }
@@ -160,15 +158,14 @@ span{
 
 .redesSociales a {
   font-size: 30px;
-  color: rgba(26, 138, 175, 0.9);
+  color: #eee;
   padding: 5px;
-  border: 2px solid #0C3C89;
   border-radius: 50px;
   margin: 15px 15px; }
 
 @media (max-width: 600px) {
   .skills{
-      height: 400px !important;
+      height: 550px;
     }
   .logod i{
       font-size: 100px;
@@ -177,6 +174,19 @@ span{
   .job img{
       width: 310px;
     }
+  }
+@media (max-width: 1025px){
+    .skills{
+        height: 750px;
+      }
+    .logod i{
+        font-size: 150px;
+      }
+
+    .job img{
+        width: 510px;
+      }
+
   }
 
 
