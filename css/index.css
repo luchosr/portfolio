@@ -30,7 +30,12 @@ ul li {
 
 footer {
   background-color: #1C2541;
-  height: 70px; }
+  height: 70px;
+  color: #eee;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
 
 span{
   color: rgba(26, 138, 175, 0.6);
@@ -137,6 +142,10 @@ span{
   display: flex;
   justify-content: center; }
 
+  .contact p{
+    font-size: 20px;
+  }
+
 .form-group {
   padding: 15px 0; }
 
@@ -154,7 +163,7 @@ span{
   align-items: center; }
 
 .fa {
-  width: 43px; }
+  width: 22px; }
 
 .redesSociales a {
   font-size: 30px;
