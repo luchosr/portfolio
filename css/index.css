@@ -172,9 +172,29 @@ span{
   border-radius: 50px;
   margin: 15px 15px; }
 
+  @media (max-width: 1025px){
+      .skills{
+          height: 750px;
+        }
+      .logod i{
+          font-size: 150px;
+        }
+
+        .texto{
+          font-size: 18px;
+        }
+      .job img{
+          width: 510px;
+        }
+
+    }
+
 @media (max-width: 600px) {
   .skills{
       height: 550px;
+    }
+    .texto{
+      font-size: 16px;
     }
   .logod i{
       font-size: 100px;
@@ -184,19 +204,7 @@ span{
       width: 310px;
     }
   }
-@media (max-width: 1025px){
-    .skills{
-        height: 750px;
-      }
-    .logod i{
-        font-size: 150px;
-      }
 
-    .job img{
-        width: 510px;
-      }
-
-  }
 
 
 /*# sourceMappingURL=index.css.map */
