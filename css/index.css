@@ -49,7 +49,7 @@ span{
 #saludo {
   color: white;
   height: 600px;
-  display: flex;kl
+  display: flex;
   justify-content: center;
   align-items: center; }
 
@@ -179,7 +179,9 @@ span{
       .logod i{
           font-size: 150px;
         }
-
+  .welc{
+    font-size: 18px;
+  }
         .texto{
           font-size: 18px;
         }
@@ -196,6 +198,9 @@ span{
     .texto{
       font-size: 16px;
     }
+    .welc{
+      font-size: 16px;
+    }
   .logod i{
       font-size: 100px;
     }
@@ -204,6 +209,25 @@ span{
       width: 310px;
     }
   }
+
+  @media (max-width: 320px) {
+    .skills{
+        height: 570px;
+      }
+      .texto{
+        font-size: 14px;
+      }
+      .welc{
+        font-size: 16px;
+      }
+    .logod i{
+        font-size: 100px;
+      }
+
+    .job img{
+        width: 250px;
+      }
+    }
 
 
 
